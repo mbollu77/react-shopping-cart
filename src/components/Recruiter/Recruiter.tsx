@@ -1,23 +1,23 @@
-import netherlandsRecruiter from './jeremy-akeze-doghouse-it-recruitment.jpg';
+import sruthipic from './jeremy-akeze-doghouse-it-recruitment.jpg';
 import * as S from './style';
 
 const Recruiter = () => (
   <S.Container>
     <S.Thumbnail>
       <img
-        alt="Jeremy Akeze - Doghouse IT Recruitment"
-        src={netherlandsRecruiter}
+        alt="Sruthi Narla"
+        src={sruthipic}
       />
     </S.Thumbnail>
     <S.Description>
       <h4>
-        Work in the Netherlands
+        Lives in Florida, USA
         <S.Flag />
       </h4>
       <p>
-        Hi! I'm Jeremy Akeze from Doghouse IT Recruitment and I'm looking for
-        skilled Software Engineers like you. If you wish to move abroad,{' '}
-        <a href="https://www.linkedin.com/in/jeremy-akeze-9542b396/">
+        Hi! I'm Sruthi Narla from University of North Florida and I'm looking for
+        full-stack developer jobs.
+        <a href="https://www.linkedin.com/in/sruthinarla">
           <b>follow me on Linkedin.</b>
         </a>
       </p>

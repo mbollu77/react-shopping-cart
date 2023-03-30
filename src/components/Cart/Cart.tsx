@@ -56,18 +56,6 @@ const Cart = () => {
                 total.totalPrice,
                 total.currencyId
               )}`}</S.SubPriceValue>
-              <S.SubPriceInstallment>
-                {total.installments ? (
-                  <span>
-                    {`OR UP TO ${total.installments} x ${
-                      total.currencyFormat
-                    } ${formatPrice(
-                      total.totalPrice / total.installments,
-                      total.currencyId
-                    )}`}
-                  </span>
-                ) : null}
-              </S.SubPriceInstallment>
             </S.SubPrice>
             <S.CheckoutButton onClick={handleCheckout} autoFocus>
               Checkout
